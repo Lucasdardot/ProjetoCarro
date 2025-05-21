@@ -23,6 +23,9 @@ export const styles = StyleSheet.create({
         paddingVertical:10,
         marginLeft:2,
         outlineWidth:0
+    },
+    inputIcons:{
+        paddingLeft:8
     }
 
 })

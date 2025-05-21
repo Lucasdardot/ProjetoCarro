@@ -10,7 +10,7 @@ interface inputProps extends TextInputProps{
 export default function Input({placeholder,keyboardType,iconName}:inputProps){
     return(
          <View style={styles.viewInput}>
-            <Icon name={iconName} size={24} color="#fff"/>
+            <Icon style={styles.inputIcons} name={iconName} size={24} color="#fff"/>
             <TextInput
           style={styles.input}
           placeholder={placeholder}
